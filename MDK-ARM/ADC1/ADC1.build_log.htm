@@ -27,24 +27,7 @@ Project File Date:  12/28/2023
 <h2>Output:</h2>
 *** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'ADC1'
-../Core/Src/main.c(122): warning: implicit declaration of function 'flash_Erase' is invalid in C99 [-Wimplicit-function-declaration]
-    flash_Erase(ADDRESS_DATA_STORAGE);
-    ^
-../Core/Src/main.c(123): warning: implicit declaration of function 'flash_Write_Array' is invalid in C99 [-Wimplicit-function-declaration]
-    flash_Write_Array(ADDRESS_DATA_STORAGE, (uint8_t*)ppmArray, NUM_PPM_VALUES * sizeof(float));
-    ^
-../Core/Src/main.c(127): warning: implicit declaration of function 'flash_Read_Array' is invalid in C99 [-Wimplicit-function-declaration]
-    flash_Read_Array(ADDRESS_DATA_STORAGE, (uint8_t*)ppmArray, NUM_PPM_VALUES * sizeof(float));
-    ^
-../Core/Src/main.c(131): warning: implicit declaration of function 'numberToString' is invalid in C99 [-Wimplicit-function-declaration]
-    SSD1306_Puts((char *)numberToString(ppmArray[i]), &Font_7x10, SSD1306_COLOR_WHITE);
-                         ^
-4 warnings generated.
-compiling main.c...
-linking...
-Program Size: Code=22700 RO-data=5840 RW-data=40 ZI-data=2688  
-FromELF: creating hex file...
-"ADC1\ADC1.axf" - 0 Error(s), 4 Warning(s).
+"ADC1\ADC1.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
